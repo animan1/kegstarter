@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+}
+
+.topbar {
+  a {
+    color:#ffffff;
+    text-decoration:none;
+  }
+
+  a:hover {
+    text-decoration:underline;
+  }
+
+  padding: 8px;
+  background-color: #000000;
+
+  table {
+    @extend .fill;
+  }
+
+  td {
+    padding: 0px 15px 0px 15px;
+    white-space: nowrap;
+  }
+}
+
+.logo {
+  font-family: impact;
+  color: #00bfff;
+  font-size: 32px;
+}
+
+.fill {
+  width: 100%;
+}
+
+.searchBox {
+  @extend .fill;
+}
