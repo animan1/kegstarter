@@ -1,3 +1,5 @@
+## Angular-seed project
+
 The MIT License
 
 Copyright (c) 2010-2012 Google, Inc. http://angularjs.org
